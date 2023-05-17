@@ -1,2 +1,29 @@
-# cyberbuylling
- 
+# cyberbullying-tweet-prediction-app
+
+
+This app predicts the nature of the tweet into 6 Categories.
+
+* Age
+* Ethnicity
+* Gender
+* Religion
+* Other Cyberbullying
+* Not Cyberbullying
+
+## Tools and Technologies  
+**Model:** Used linear Support Vector Machine to classify tweets.  
+**Streamlit:** Used Streamlit to create simple webapp to make the model interactive.  
+
+## Methodology
+* Downloaded the data from kaggle. [(data)](https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification)
+*  Created a Word Cloud from the data.
+*  Performed the necessary steps for textual analysis.
+    * Removing Stopwords, puctuations, URLs, etc
+    * Performed Stemming and Lemmatization.
+* Automated the process of preprocessing by creating functions. Which would be helpful in predicting Custom Outputs.
+* Created Illustrations for the webapp from [Canva](https://www.canva.com/). 
+
+* Deployed the webapp on streamlit.
+
+## References
+* Twitter Sentiment Analysis- A NLP Use-Case for Beginners - [https://www.analyticsvidhya.com/blog/2021/06/twitter-sentiment-analysis-a-nlp-use-case-for-beginners/](https://www.analyticsvidhya.com/blog/2021/06/twitter-sentiment-analysis-a-nlp-use-case-for-beginners/)
