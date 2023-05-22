@@ -1,4 +1,4 @@
-# importing libraries
+# importing libraries of python
 
 from ctypes import alignment
 from urllib import response
